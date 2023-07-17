@@ -1,34 +1,33 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
-    <section>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Reservia</title>
-        <link rel="stylesheet" href="styles.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />"
-    </section>
+        <title>Booki</title>
+        <link rel="stylesheet" href="styles.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" >
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Raleway" >
 </head>
 
 <body>
     <div class="main">
         <div class="NAV">
             <div class="header">
-                <nav>
-                    <div>
-                        <div class="flexBetween">
-                            <image src="./Image-booki/Booki@3x.png" alt="Logo Booki" width="120px" height="50px" />
-                            <div class="sizeLiens flexAround">
-                                <ul>
-                                    <div class="sizeLien flexCentre bordureNave">
-                                        <li><a class="colorBlue decorationNone texte" href="#Hèbergement">Hèbergement</a></li>
-                                        <div class="sizeLien flexCentre bordureNave23">
-                                            <li><a class="colorLien2 decorationNone texte" href="#Activités">Activités</a></li>
-                                        </div>
+                <nav class="size-nav">
+                    <div class="send">
+                        <div class="size-liens flex-between">
+                            <img src="./Image-booki/Booki@3x.png"
+                            alt="logo Booki" class="size-lien" >
+                            <div class="flex-around">
+                                <!--on rajoute une div qui englobe les deux liens Hèbergement et Activités-->
+                                    <div class="size-lien flex-centre bordure-nav3">
+                                        <a class="color decorationNone texte" href="#Hèbergement">Hèbergement</a>
                                     </div>
-                                </ul>
+                                    <div class="size-lien flex-centre bordure-nav">
+                                        <a class="color-lien2 decoration-none texte" href="#Activités">Activités</a>
+                                    </div>  
                             </div>
                         </div>
                         <div class="container">
@@ -37,72 +36,67 @@
                                     <h2>Trouvez votre hebergement pour des vacances de rêve</h2>
                                     <p>En plein centre ville ou en pleine nature</p>
                                 </div>
-                                <form>
                                     <div>
-                                        <div class="bordureSearch flexCentre">
-                                            <div class="backGris flexCentre iconSize">
+                                        <div class="bordure-search flex-centre">
+                                            <div class="back-gris flex-centre icon-size">
                                                 <i class="fa-solid fa-location-dot"></i>
                                             </div>
                                             <div>
-                                                <input class="recherche flexCentre bordureNone paddingSearch"
-                                                    type="search" value="Marseille, France" />
+                                                <input class="recherche bordure-none padding-search"
+                                                    type="search" value="Marseille, France" >
                                             </div>
-                                            <div class="backBleu flexCentre buttomSearch ">Rechercher</div>
+                                            <div class="back-bleu flex-centre buttom-search ">Rechercher</div>
                                         </div>
                                     </div>
-                                </form>
                             </div>
-                            <div class="filtre">
-                                <div class="margFiltreTitre">
+                            <div class="filtre tailles-blooFoot">
+                                <div class="marg-filtre-titre">
                                     <h3>Filtres</h3>
                                 </div>
-                                <div class=" flexBetween filtreTexteIcones">
+                                <div class="flex-betweens filtre-texte-icone">
                                     <div class="circle">
-                                        <i class="fa-solid fa-money-bill fa-Ig filtreIcons flexCentre color"></i>
+                                        <i class="fa-solid fa-money-bill fa-Ig filtre-icons flex-centre color"></i>
                                     </div>
-                                    <div>Economiques</div>
+                                    <div class="su">Economiques</div>
                                 </div>
-                                <div class="flexBetween filtreTexteIcones">
+                                <div class="flex-betweens filtre-texte-icone">
                                     <div class="circle">
-                                        <i class="fa-solid fa-child fa-Ig filtreIcons flexCentre color"></i>
+                                        <i class="fa-solid fa-child fa-Ig filtre-icons flex-centre color sends2"></i>
                                     </div>
-                                    <div>Familiales</div>
+                                    <div class="sun">Familiales</div>
                                 </div>
-                                <div class="flexBetween filtreTexteIcones">
+                                <div class="flex-betweens filtre-texte-icone">
                                     <div class="circle">
-                                       <i class="fa-solid fa-heart fa-Ig filtreIcons flexCentre color"></i>
+                                       <i class="fa-solid fa-heart fa-Ig filtre-icons flex-centre color"></i>
                                     </div>
-                                    <div>Romantiques</div>
+                                    <div class="sun">Romantiques</div>
                                 </div>
-                                <div class=" flexBetween filtreTexteIcones">
+                                <div class=" flex-betweens filtre-texte-icone">
                                     <div class="circle">
                                          <i class="fa-solid fa-dog fa-Ig filtreIcons flexCentre color"></i>
                                     </div>
-                                    <div class="filtreTexte flexCentre">Animaux Autorisé</div>
+                                    <div class="filtreTexte flexCentre sends1">Animaux Autorisé</div>
                                 </div>
                             </div>
-                            </form>
                         </div>
                     </div>
                 </nav>
             </div>
         </div>
-        <div class="Infos">
-            <div class="parent-icons">
-                <div class="flexBetween FiltreTexteIcones">
+        <div class="info tailles-blooFoot">
+            <div class="parent-icons send sams sam">
+                <div class="flex-start filtre-texte-icones" >
                     <div class="round">
-                        <i class="fa fa-info color"></i> 
+                        <i class="fa fa-info color sa"></i> 
                     </div>
                     Plus de 500 logement sont disponibles dans cette ville   
                 </div>
             </div>
         </div>
-        </section>
-        </header>
-        <section class="flex-around">
-            <div class="flexColumnAround size-hebergements backGris bloc-hebergements">
-                <h3>hebergements à Marseille</h3>
-                <div class="bloc1 flexBetween">
+        <section class="flex-around send">
+            <div id="Hèbergement" class="flex-column-around size-hebergements back-gris bloc-hebergements">
+                <h3>Hébergements à Marseille</h3>
+                <div class="bloc1 flex-between">
                     <div class="cube-hebergements">
                         <div class="cube-details-hebergement">
                             <div class="imghebergements1"></div>
@@ -149,7 +143,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bloc2 flexBetween">
+                <div class="bloc2 flex-between">
                     <div class="cube-hebergements">
                         <div>
                             <div class="imghebergements4"></div>
@@ -196,23 +190,22 @@
                         </div>
                     </div>
 
-
                 </div>
-                <p class="texteGras">Afficher plus</p>
+                <p><strong>Afficher plus</strong></p>
             </div>
-            <div class="flexColumnAround size-populaires backGris bloc-populaires">
-             <div class="flexBetween">
+            <div class="flex-column-around size-populaires back-gris bloc-populaires sun">
+             <div class="flex-between send sam">
                 <h3>Les plus populaires</h3>                   
-                    <div>
+                    <div class="sun">
                         <i class="fa-solid fa-star"></i>
                 </div>
             </div>
-                <div class="bloc3 flexColumnBetween">
-                    <div class="cube-imgpopulaires  flexBetween">
+                <div class="bloc3 flex-column-between">
+                    <div class="cube-imgpopulaires flex-between">
                             <div class="imgpopulairess1"></div>
                             <div class="cube-details-imgpopulaires">
-                                <h3>Hotêl le soleil du matin</h3>
-                                <p>Nuit au palais à partir de 128£</p>
+                                <h3 class="sa">Hotêl le soleil du matin</h3>
+                               <p>Nuit au palais à partir de 128£</p>
                                 <div><i class="fa-solid fa-star color"></i>
                                     <i class="fa-solid fa-star color"></i>
                                     <i class="fa-solid fa-star color"></i>
@@ -221,11 +214,11 @@
                                 </div>
                             </div>
                     </div>
-                    <div class="cube-imgpopulaires flexBetween">
+                    <div class="cube-imgpopulaires flex-between">
                         
                             <div class="imgpopulairess2"></div>
                             <div class="cube-details-imgpopulaires">
-                                <h3>Au coeur de l'eau chambre d'hôtes</h3>
+                                <h3 class="sa">Au coeur de l'eau chambre d'hôtes</h3>
                                 <p>Nuit au palais à partir de 71£</p>
                                 <div><i class="fa-solid fa-star color"></i>
                                     <i class="fa-solid fa-star color"></i>
@@ -236,11 +229,11 @@
                             </div>
                         
                     </div>
-                    <div class="cube-imgpopulaires flexBetween">
+                    <div class="cube-imgpopulaires flex-between">
                      
                             <div class="imgpopulairess3"></div>
                             <div class="cube-details-imgpopulaires">
-                                <h3>Hotêl tout bleu et blanc</h3>
+                                <h3 class="sa">Hotêl tout bleu et blanc</h3>
                                 <p>Nuit au palais à partir de 58£</p>
                                 <div><i class="fa-solid fa-star color"></i>
                                     <i class="fa-solid fa-star color"></i>
@@ -255,66 +248,66 @@
             </div>
         </section>
         <section class="Activités">
-            <h2>Activités à Marseille</h2>
-            <div class="blocActivités flexBetween">
-                <div class="cubeActivités flexColumnCentre">
-                    <div class="imgActivités1"></div>
-                    <div class="hauteurTitre titreActivités">
+            <h2 id="Activités" class="send">Activités à Marseille</h2>
+            <div class="bloc-activités flex-centre">
+                <div class="cube-activités flex-column-centre">
+                    <div class="img-activités1"></div>
+                    <div class="hauteur-titre titre-activités">
                         <h3>Vieux Port</h3>
                     </div>
                 </div>
 
-                <div class="blocActivités2356 flexColumnBetween">
-                    <div class="cubeActivités2356 flexColumnCentre">
-                        <div class="imgActivités2"></div>
-                        <div class="hauteurTitre titreActivités">
+                <div class="bloc-activités2356 flex-column-between">
+                    <div class="cube-activités2356 flex-column-centre">
+                        <div class="img-activités2"></div>
+                        <div class="hauteur-titre titre-activités">
                             <h3>Fort des Pormégues</h3>
                         </div>
                     </div>
 
-                    <div class="cubeActivités2356 flexColumnCentre">
-                        <div class="imgActivités3"></div>
-                        <div class="hauteurTitre titreActivités">
+                    <div class="cube-activités2356 flex-column-centre">
+                        <div class="img-activités3"></div>
+                        <div class="hauteur-titre titre-activités">
                             <h3>Iles du Frioul</h3>
                         </div>
                     </div>
                 </div>
-                <div class="cubeActivités flexColumnCentre">
-                    <div class="imgActivités4"></div>
-                    <div class="hauteurTitre titreActivités">
+                <div class="cube-activités flex-column-centre">
+                    <div class="img-activités4"></div>
+                    <div class="hauteur-titre titre-activités">
                         <h3>Parc National des Calanques</h3>
                     </div>
                 </div>
-                <div class="blocActivités2356 flexColumnBetween">
-                    <div class="cubeActivités2356 flexColumnCentre">
-                        <div class="imgActivités5"></div>
-                        <div class="hauteurTitre titreActivités">
+                <div class="bloc-activités2356 flex-column-between">
+                    <div class="cube-activités2356 flex-column-centre">
+                        <div class="img-activités5"></div>
+                        <div class="hauteur-titre titre-activités">
                             <h3>Notre-Dame-de-la-Garde</h3>
                         </div>
                     </div>
-                    <div class="cubeActivités2356 flexColumnCentre">
-                        <div class="imgActivités6"></div>
-                        <div class="hauteurTitre titreActivités">
+                    <div class="cube-activités2356 flex-column-centre">
+                        <div class="img-activités6"></div>
+                        <div class="hauteur-titre titre-activités">
                             <h3>Parc Longchamp</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <footer>
-            <div class=" footer backGris flexBetween">
-                <div class="margeBlocFoot1 taillesBlooFoot">
+        <footer class="same">
+            <div class=" footer backgris flex-between">
+                <div class="marge-bloc-foot1 tailles-bloo-foot sams1">
                     <h3>A propos</h3>
                     <p>Fonctionnement du site</p>
                     <p>Condition général de vente </p>
                     <p>Données et confidentialité</p>
                 </div>
-                <div class="margeBlocFoot2 taillesBlooFoot">
+                <div class="marge-bloc-foot2 tailles-bloo-foot sams1">
                     <h3>Nos hèbergements</h3>
                     <p>Charte qualité</p>
                     <p>Soumettre votre hôtel</p>
                 </div>
-                <div class="margeBlocFoot3 taillesBlooFoot">
+                <div class="marge-bloc-foot3 tailles-bloo-foot sams1">
                     <h3>Assistance</h3>
                     <p>Centre d'aide</p>
                     <p>Nous contacter </p>
