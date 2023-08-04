@@ -793,11 +793,17 @@ input {
             margin-bottom: 10px;
             cursor: pointer;
         }
+        .sa {
+            margin-top: 20px;
+        }
         .card--imghebergements {
             background-position: center;
             width: 100%;
             margin-left: 0px;
             border-radius: 15px 15px 0 0;
+        }
+        .spa {
+            line-height : 90px;
         }
         .sam {
             margin-top: 0px;
@@ -852,7 +858,7 @@ input {
             background-color: #f2F2F2;
         }
         .cube-hebergements { 
-            width: 88%;   
+            width: 91%;   
             margin-bottom: 40px;
             cursor: pointer;
             margin-left: 20px;
@@ -869,6 +875,9 @@ input {
         }
         .send {
             margin-left: 0px;
+        }
+        .sums {
+            margin-left: 30px;
         }
         .bloc1 {
             flex-direction: column;
@@ -925,19 +934,19 @@ input {
             transform: scale(1.02);
         }
         .cube-activités {
-            width: 97%;
+            width: 98%;
             height: 200px;
             margin-top: 0px;
-            margin-left: 0px;
+            margin-left: 10px;
         }
         .tu {
             margin-left: 10px;
         }
         .cube-activités2356 {
-            width: 97%;
+            width: 98%;
             height: 200px;
             margin-top: 17px;
-            margin-left: 0px;
+            margin-left: 5px;
             box-shadow: 5px 5px 5px 1px #f2f2f2;
         }
         .img-activités1 {
@@ -991,7 +1000,7 @@ input {
             margin-left: 10px;
         }
         .senul {
-            margin-left: 20px;
+            margin-left: 25px;
         }
         .sends2 {
             margin-left: 0px;
@@ -1316,7 +1325,7 @@ input {
             display: flex;
             flex-direction: row;
             /* flex-wrap: wrap; */
-            /* justify-content: start; */
+            justify-content: space-around;
             /* justify-content: space-between; */
         }
         .flex-between5 {
@@ -1473,6 +1482,9 @@ input {
         }
         .resil {
             margin-left: 95px;
+        }
+        .marge-bloc-foot1 {
+            margin-left: 15%;
         }
     }    
     @media screen and (min-width:1025px) and (max-width: 1250px) {
